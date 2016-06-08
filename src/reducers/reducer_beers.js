@@ -5,56 +5,56 @@ export default function() {
       id: 'beer1',
       ingredients: [
         { 
-          ingredientName: 'Pilsner',
+          name: 'Pilsner',
           amount: {
             number: 5.4,
             units: 'kg'
           }
         },
         { 
-          ingredientName: 'Munich Malt',
+          name: 'Munich Malt',
           amount: {
             number: .17,
             units: 'kg'
           }
         },
         { 
-          ingredientName: 'Vienna Malt',
+          name: 'Vienna Malt',
           amount: {
             number: .17,
             units: 'kg'
           }
         },
         { 
-          ingredientName: 'Light Dry Extract',
+          name: 'Light Dry Extract',
           amount: {
             number: .5,
             units: 'kg'
           }
         },
         { 
-          ingredientName: 'Columbus (Tomahawk)',
+          name: 'Columbus (Tomahawk)',
           amount: {
             number: 20,
             units: 'g'
           }
         },
         { 
-          ingredientName: 'Irish Moss',
+          name: 'Irish Moss',
           amount: {
             number: .26,
             units: 'tsp'
           }
         },
         { 
-          ingredientName: 'Citra',
+          name: 'Citra',
           amount: {
             number: 30,
             units: 'g'
           }
         },
         { 
-          ingredientName: 'Mosaic',
+          name: 'Mosaic',
           amount: {
             number: 30,
             units: 'g'
@@ -68,21 +68,21 @@ export default function() {
       id: 'beer2',
       ingredients: [
         { 
-          ingredientName: 'Pilsner malt',
+          name: 'Pilsner malt',
           amount: {
             number: 17,
             units: 'lb'
           }
         },
         { 
-          ingredientName: 'Wheat Malt',
+          name: 'Wheat Malt',
           amount: {
             number: 3,
             units: 'lb'
           }
         },
         { 
-          ingredientName: 'Crystal Malt',
+          name: 'Crystal Malt',
           amount: {
             number: 1,
             units: 'lb'
@@ -96,35 +96,35 @@ export default function() {
       id: 'beer3',
       ingredients: [
         {
-          ingredientName: 'Pilsen Malt',
+          name: 'Pilsen Malt',
           amount: {
             number: 48.1,
             units: '%'
           }
         },
         {
-          ingredientName: 'Pale Ale Malt',
+          name: 'Pale Ale Malt',
           amount: {
             number: 21.4,
             units: '%'
           }
         },
         {
-          ingredientName: 'Pale Ale Maris Otter Malt',
+          name: 'Pale Ale Maris Otter Malt',
           amount: {
             number: 21.3,
             units: '%'
           }
         },
         {
-          ingredientName: 'Carafa III Malt',
+          name: 'Carafa III Malt',
           amount: {
             number: 6.2,
             units: '%'
           }
         },
         {
-          ingredientName: 'Chocolate Light Malt',
+          name: 'Chocolate Light Malt',
           amount: {
             number: 3,
             units: '%'

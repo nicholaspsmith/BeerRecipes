@@ -5,11 +5,17 @@ import { bindActionCreators } from 'redux'
 import { Accordion, Collapsible, Panel } from 'react-bootstrap'
 
 class BeerList extends Component {
+  renderIngredients(beer) {
+    return beer.ingredients.map( ingredient => {
+      return <div key={ingredient.name}>{ingredient.amount.number} {ingredient.amount.units}&nbsp;{ingredient.name}</div>
+    })
+  }
+
   renderList() {
     return this.props.beers.map( beer => {
       return (
         <Panel header={beer.name} eventKey={beer.id} key={beer.id}>
-          Beer ingredients ...
+          {this.renderIngredients(beer)}
         </Panel>
       )
     })
