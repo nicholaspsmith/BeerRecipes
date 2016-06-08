@@ -1,0 +1,42 @@
+{
+  "name": "beer-recipes",
+  "version": "0.1.0",
+  "description": "A React app for creating and storing beer recipes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nicholaspsmith/BeerRecipes.git"
+  },
+  "keywords": [
+    "beer"
+  ],
+  "author": "Nicholas P Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholaspsmith/BeerRecipes/issues"
+  },
+  "homepage": "https://github.com/nicholaspsmith/BeerRecipes#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "babel-preset-stage-1": "^6.1.18",
+    "lodash": "^3.10.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.0",
+    "react-router": "^2.0.1",
+    "redux": "^3.0.4"
+  }
+}
